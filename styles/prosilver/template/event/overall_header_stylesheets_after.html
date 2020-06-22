@@ -1,0 +1,9 @@
+<style>
+{% for post in postrow %}
+	{% if post.S_TEAM_USER %}
+		div#p{{ post.POST_ID }}.post {
+			border-right: 5px solid {{ post.GROUP_COLOR }};
+		}
+	{% endif %}
+{% endfor %}
+</style>

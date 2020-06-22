@@ -1,0 +1,5 @@
+services:
+    kinerity.postborder.listener:
+        class: kinerity\postborder\event\main_listener
+        tags:
+            - { name: event.listener }
